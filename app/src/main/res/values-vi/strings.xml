@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">北京赛车</string>
+    <string name="yes">Có</string>
+    <string name="cancel">Hủy</string>
+    <string name="continute">Tiếp Tục</string>
+    <string name="update_fail">Cập nhật không thành công, vui lòng kiểm tra kết nối, Sau đó thử cập nhật lại \n Lưu ý: Bạn sẽ không thể sử dụng mà không cần cập nhật!</string>
+    <string name="confirm_update">Phát hiện phiên bản mới,bạn có muốn cập nhật? \n Lưu ý: Bạn sẽ không thể sử dụng nếu không cập nhật!</string>
+    <string name="fail">Lỗi kết nối!\n Vui lòng kiểm tra đường truyền hoặc kết nối internet</string>
+    <string name="chang_lag">Ngôn ngữ</string>
+    <string name="loading">Đang tải cập nhật, vui lòng đợi...</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">北京赛车</string>
+    <string name="yes">有</string>
+    <string name="cancel">消除</string>
+    <string name="continute">继续</string>
+    <string name="confirm_update">检测到新版本，是否更新 ？\n 注意：不更新您将无法正常使用！</string>
+    <string name="fail">连接错误！\n 请检查您的互联网连接或连接</string>
+    <string name="update_fail">更新失败，请确认网络连接是否正常， 是否重新更新 \n 注意：不更新您将无法正常使用！</string>
+    <string name="chang_lag">语言</string>
+    <string name="loading">正在载入更新，请稍候...</string>
+</resources>

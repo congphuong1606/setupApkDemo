@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">北京赛车</string>
+    <string name="update_fail">Cập nhật không thành công, vui lòng kiểm tra kết nối, Sau đó thử cập nhật lại \n Lưu ý: Bạn sẽ không thể sử dụng mà không cần cập nhật!</string>
+    <string name="fail">Lỗi kết nối! \n Vui lòng kiểm tra đường truyền hoặc kết nối internet</string>
+    <string name="confirm_update">Phát hiện phiên bản mới,bạn có muốn cập nhật? \n Lưu ý: Bạn sẽ không thể sử dụng nếu không cập nhật!</string>
+    <string name="yes">Có</string>
+    <string name="cancel">Hủy</string>
+    <string name="continute">Tiếp Tục</string>
+    <string name="chang_lag">Ngôn ngữ</string>
+
+    <string name="language_cnese" translatable="false">中文</string>
+    <string name="language_vietnamese" translatable="false">Tiếng Việt</string>
+
+    <string-array name="language_names">
+        <item>@string/language_vietnamese</item>
+        <item>@string/language_cnese</item>
+    </string-array>
+
+    <string name="language_cnese_code" translatable="false">za</string>
+    <string name="language_vietnamese_code" translatable="false">vi</string>
+    <string name="loading">Đang tải cập nhật, vui lòng đợi...</string>
+    <string-array name="language_codes">
+
+
+        <item>@string/language_vietnamese_code</item>
+        <item>@string/language_cnese_code</item>
+    </string-array>
+</resources>
