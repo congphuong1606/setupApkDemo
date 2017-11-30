@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "601050898773",
+    "firebase_url": "https://settupapk.firebaseio.com",
+    "project_id": "settupapk",
+    "storage_bucket": "settupapk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601050898773:android:b1b66893ec7d2ace",
+        "android_client_info": {
+          "package_name": "com.congp.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601050898773-7sumpjt1sob4mr7knas10p1qu6k0cerg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.congp.app",
+            "certificate_hash": "f989bc2cfd557cf0135d2ffc63d83a53ea41d46a"
+          }
+        },
+        {
+          "client_id": "601050898773-tu1fjvn43rl7rtfduf8p2vv1rhqr6mut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1AZ7qHxV-s92gA4sUwuVca9K6RJ4Inik"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601050898773-tu1fjvn43rl7rtfduf8p2vv1rhqr6mut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
