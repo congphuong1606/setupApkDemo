@@ -27,9 +27,9 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
         NotificationCompat.Builder mBuilder =   new NotificationCompat.Builder(this)
-                .setSmallIcon(R.drawable.ic_launcher_background) // notification icon
+                .setSmallIcon(R.drawable.ic_launcher) // notification icon
                 .setContentTitle(remoteMessage.getFrom()) // title for notification
-                .setContentText(remoteMessage.getData().toString())
+                .setContentText(remoteMessage.getNotification().toString())
                 .setSound(alarmSound)
                 .setVibrate(new long[] { 1000, 1000})// message for notification
                 .setAutoCancel(true); // clear notification after click

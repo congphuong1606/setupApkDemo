@@ -19,6 +19,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.congp.app.common.Constants;
 import com.congp.app.common.LanguageUtils;
@@ -210,33 +211,7 @@ public class MainActivity extends AppCompatActivity implements MView {
 
     @Override
     public void fail(String s) {
-        String fail = getResources().getString(R.string.fail);
-        String btnCancelS = getResources().getString(R.string.cancel);
-        String btnContinuteS = getResources().getString(R.string.continute);
-        final Dialog dialogUpdateFail = new Dialog(this);
-        dialogUpdateFail.setContentView(R.layout.dialog_update_fail);
-        TextView tvUpdateFail = (TextView) dialogUpdateFail.findViewById(R.id.tv_text_update_fail);
-        Button btnUpdateCancel = (Button) dialogUpdateFail.findViewById(R.id.btn_update_cancel);
-        Button btnUpdateContinute = (Button) dialogUpdateFail.findViewById(R.id.btn_update_continute);
-        tvUpdateFail.setText(fail);
-        btnUpdateCancel.setText(btnCancelS);
-        btnUpdateContinute.setText(btnContinuteS);
-        dialogUpdateFail.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
-        dialogUpdateFail.setCancelable(false);
-        btnUpdateContinute.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                presenter.getApk();
-                dialogUpdateFail.dismiss();
-            }
-        });
-        btnUpdateCancel.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                dialogUpdateFail.dismiss();
-            }
-        });
-        dialogUpdateFail.show();
+
     }
 
     class DownloadFileFromURL extends AsyncTask<String, String, String> {
