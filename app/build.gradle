@@ -9,7 +9,7 @@ android {
     defaultConfig {
         applicationId "com.congp.app"
         minSdkVersion 15
-        targetSdkVersion 26
+        targetSdkVersion 25
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
@@ -26,16 +26,17 @@ android {
         android.compileOptions.sourceCompatibility 1.8
         android.compileOptions.targetCompatibility 1.8
     }
+    productFlavors {
+    }
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'io.reactivex.rxjava2:rxjava:2.0.1'
     compile 'com.google.firebase:firebase-core:11.6.2'
     compile 'com.google.firebase:firebase-messaging:11.6.2'
-
     provided 'javax.annotation:jsr250-api:1.0'
     compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
     compile 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
@@ -44,7 +45,9 @@ dependencies {
     compile 'com.squareup.retrofit2:converter-gson:2.2.0'
     compile 'com.android.support:recyclerview-v7:26.1.0'
     compile 'com.android.support:design:26.1.0'
-    compile group: 'com.google.code.gson', name: 'gson', version: '2.7'
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'com.jakewharton:butterknife:8.6.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation('com.android.support.test.espresso:espresso-core:3.0.1', {
         exclude group: 'com.android.support', module: 'support-annotations'

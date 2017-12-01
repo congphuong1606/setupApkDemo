@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrou"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".activity.MaiActivity"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:orientation="vertical"
+        android:paddingLeft="25dp"
+        android:paddingRight="50dp"
+
+        android:paddingTop="25dp">
+
+
+        <Button
+            android:id="@+id/btn_tuchon"
+            android:layout_width="match_parent"
+
+            android:layout_height="58dp"
+            android:layout_weight="0.00"
+            android:background="@drawable/mybutton"
+            android:drawablePadding="40dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/option"
+
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_chonchuong"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/mybutton"
+            android:drawablePadding="40dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/chapter"
+
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_luyentap"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.00"
+            android:background="@drawable/mybutton"
+            android:drawablePadding="40dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/fast"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rlw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/buton_lg">
+
+        <Button
+            android:id="@+id/btn_lague"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:text="@string/chang_lag"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
